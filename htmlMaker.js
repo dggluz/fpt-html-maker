@@ -73,7 +73,7 @@ $(document).ready(function() {
 				}
 			});
 
-			return '<a href="' + url + '"><img src="' + img + '" alt="' + description + '" width="100%" ><br />' + description + '</a><br />';
+			return '<a href="' + url + '" target="_system"><img src="' + img + '" alt="' + description + '" width="100%" ><br />' + description + '</a><br />';
 		});
 	};
 });
